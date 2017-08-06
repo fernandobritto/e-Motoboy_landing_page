@@ -16,7 +16,7 @@ h1, h2 {
   line-height: 1.5em; }
 
 h3 {
-  color: #FFFFFF; }
+  visibility: hidden; }
 
 .hero {
   width: 100%;
@@ -96,6 +96,10 @@ h3 {
 .layer-6 {
   background-image: url("../assets/images/layer-6.png");
   top: -120px; }
+
+.layer-5 {
+  background-image: url("../assets/images/layer-4.png");
+  top: -20px; }
 
 .bike-1,
 .bike-2 {
@@ -227,6 +231,7 @@ article {
 /*-- responsive --*/
 @media screen and (max-width: 760px) {
   body {
-    background: #333; } }
+    background: #333;
+    color: #DEDEDE; } }
 
 /*# sourceMappingURL=style.css.map */

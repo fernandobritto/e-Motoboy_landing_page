@@ -64,7 +64,7 @@ var Textos = React.createClass({
         </div>
         <div className="parallax_section parallax_image_second">
           <div className="center">
-            <article>Some text Parallax </article>
+            <article>A eficiência da sua entrega maximizada pela tecnologia  </article>
           </div>
         </div>
         {/*Block with content*/} 

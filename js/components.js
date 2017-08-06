@@ -168,7 +168,7 @@ var Textos = React.createClass({
           React.createElement(
             "article",
             null,
-            "Some text Parallax "
+            "A efici\xEAncia da sua entrega maximizada pela tecnologia  "
           )
         )
       ),

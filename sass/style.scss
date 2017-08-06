@@ -15,7 +15,7 @@ h1, h2{
 }
 
 h3{
-  color: #FFFFFF;
+  visibility: hidden;
 }
 
 .hero {
@@ -52,6 +52,12 @@ h3{
   background-image: url('../assets/images/layer-6.png');
   top: -120px;
 }
+
+.layer-5{
+  background-image: url('../assets/images/layer-4.png');
+  top: -20px;
+}
+
 
 
 .bike-1,
@@ -215,5 +221,5 @@ article {
 
 /*-- responsive --*/
 @media screen and (max-width:760px) {
-  body {background:#333;}
+  body {background:#333; color:#DEDEDE;}
 }
