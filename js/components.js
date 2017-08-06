@@ -16,6 +16,59 @@ var BannerTop = React.createClass({
                 React.createElement("div", { className: "parallax-layer layer-3" }),
                 React.createElement("div", { className: "parallax-layer layer-2" }),
                 React.createElement("div", { className: "parallax-layer layer-1" })
+            ),
+            React.createElement(
+                "nav",
+                null,
+                React.createElement(
+                    "ul",
+                    null,
+                    React.createElement(
+                        "li",
+                        null,
+                        React.createElement(
+                            "a",
+                            { href: "https://www.ecletica.com.br" },
+                            "Ecl\xE9tica"
+                        )
+                    ),
+                    React.createElement(
+                        "li",
+                        null,
+                        React.createElement(
+                            "a",
+                            { href: "https://www.ecletica.com.br/sobre.html" },
+                            "Sobre"
+                        )
+                    ),
+                    React.createElement(
+                        "li",
+                        null,
+                        React.createElement(
+                            "a",
+                            { href: "https://play.google.com/store/apps/details?id=br.com.ecletica.emotoboy&hl=pt" },
+                            "Google"
+                        )
+                    ),
+                    React.createElement(
+                        "li",
+                        null,
+                        React.createElement(
+                            "a",
+                            { href: "https://itunes.apple.com/bw/app/e-motoboy/id1215731478?mt=8" },
+                            "Apple"
+                        )
+                    ),
+                    React.createElement(
+                        "li",
+                        null,
+                        React.createElement(
+                            "a",
+                            { href: "https://www.ecletica.com.br/contato.html" },
+                            "Contato"
+                        )
+                    )
+                )
             )
         );
     }
@@ -31,6 +84,21 @@ var Textos = React.createClass({
                 "h1",
                 null,
                 this.props.title
+            ),
+            React.createElement(
+                "h3",
+                null,
+                this.props.subTitle
+            ),
+            React.createElement(
+                "h4",
+                null,
+                this.props.text1
+            ),
+            React.createElement(
+                "p",
+                null,
+                this.props.list
             )
         );
     }
