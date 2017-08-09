@@ -8,6 +8,7 @@ Contendo uma interface simples, intuitiva e funcional, o Motoboy irá contar com
 Quanto ao lojista, o mesmo obterá o total controle do seu sistema de delivery com as informações do tempo real de entrega e muitos outros benefícios disponibilizados pelo aplicativo.
 
 
+
 Principais características do E-Motoboy:
 
 - Agiliza as entregas dos pedidos feitos pelos clientes.
