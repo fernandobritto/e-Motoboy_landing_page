@@ -176,7 +176,7 @@ var Textos = React.createClass({
           React.createElement(
             "article",
             null,
-            "A efici\xEAncia da sua entrega maximizada pela tecnologia  "
+            "A efici\xEAncia da sua entrega maximizada pela tecnologia"
           )
         )
       ),

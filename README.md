@@ -1,5 +1,5 @@
 # e-Motoboy_landing_page
-Esta é a landing page do aplicativo E-Motoboy da Eclética Tecnologia. 
+Esta é a landing page do aplicativo E-Motoboy da Eclética Tecnologia.
 
 E-Motoboy é uma ferramenta atrelada ao sistema Eclética Food Manager que irá potencializar a eficácia do seu sistema de delivery. Com este aplicativo, o motoboy irá receber as informações de entrega direto em seu aparelho celular, melhorando assim o fluxo de entregas e os canais de comunicação entre o lojista com o motoboy.
 
@@ -13,6 +13,6 @@ Principais características do E-Motoboy:
 
 - Agiliza as entregas dos pedidos feitos pelos clientes.
 - Contém mapa do local da entrega facilitando a vida do entregador.
-- Interface simples e funcional.
+- Interface simples, intuitiva e funcional, que permite o entregado usá-lo de maneira rápida e fluída.
 - Com as entregas chegando diretamente para o celular do motoboy, a loja economizará tempo e papel.
 - Integrado com o software da Eclética, o lojista tem relatório do tempo de suas entregas.

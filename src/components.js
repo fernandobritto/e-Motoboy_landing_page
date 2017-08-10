@@ -70,7 +70,7 @@ Quanto ao lojista, o mesmo obterá o total controle do seu sistema de delivery c
         </div>
         <div className="parallax_section parallax_image_second">
           <div className="center">
-            <article>A eficiência da sua entrega maximizada pela tecnologia  </article>
+            <article>A eficiência da sua entrega maximizada pela tecnologia</article>
           </div>
         </div>
         {/*Block with content*/}
