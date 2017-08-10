@@ -25,7 +25,11 @@ h3 {
   position: relative;
   top: 0;
   left: 0;
-  background-color: #d9edfd; }
+  background-color: #d9edfd;
+  transition: background-color 5s linear 0.5s; }
+
+.hero:hover {
+  background-color: #448293; }
 
 .layer-1 {
   animation: parallax_fg linear 20s infinite both;
@@ -159,6 +163,9 @@ nav {
     color: #fff;
     text-decoration: none; }
 
+.text_initial {
+  font-size: 23px; }
+
 /******************************************************************************************/
 body {
   /* color:#666;
@@ -232,6 +239,12 @@ article {
 @media screen and (max-width: 760px) {
   body {
     background: #333;
-    color: #DEDEDE; } }
+    color: #DEDEDE; }
+
+  .hero {
+    background: -webkit-linear-gradient(#366B7A, #E1E8EA);
+    background: -o-linear-gradient(#366B7A, #E1E8EA);
+    background: -moz-linear-gradient(#366B7A, #E1E8EA);
+    background: linear-gradient(#366B7A, #E1E8EA); } }
 
 /*# sourceMappingURL=style.css.map */

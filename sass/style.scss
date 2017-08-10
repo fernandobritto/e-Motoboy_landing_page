@@ -10,7 +10,7 @@ body {
 
 h1, h2{
   text-align: center;
-  margin-bottom:.8em; 
+  margin-bottom:.8em;
   line-height:1.5em;
 }
 
@@ -25,8 +25,14 @@ h3{
   position: relative;
   top: 0;
   left: 0;
-  background-color: #d9edfd,
-  //transform: translate3d(0,0,0); 
+  background-color: #d9edfd;
+  transition: background-color 5s linear 0.5s;
+
+  //transform: translate3d(0,0,0);
+}
+
+.hero:hover{
+    background-color: #448293;
 }
 
 @each $index, $speed, $height in (1, 20s, 136px),
@@ -82,19 +88,19 @@ h3{
 
 
 
-@keyframes parallax_fg {  
-  0% { background-position: 2765px 100%;} 
-  100% {background-position: 550px 100%; } 
+@keyframes parallax_fg {
+  0% { background-position: 2765px 100%;}
+  100% {background-position: 550px 100%; }
 }
 
-@keyframes parallax_bike {  
-  0% { background-position: -300px 100%;} 
-  100% {background-position: 2000px 100%; } 
+@keyframes parallax_bike {
+  0% { background-position: -300px 100%;}
+  100% {background-position: 2000px 100%; }
 }
 
 .logo {
   margin: 70px auto;
-  
+
   display: block;
   position: absolute;
   z-index: 12;
@@ -131,6 +137,9 @@ nav {
   }
 }
 
+.text_initial{
+  font-size: 23px;
+}
 
 /******************************************************************************************/
 
@@ -213,7 +222,7 @@ article {
 
 .content_block {
   width:70%;
-  margin:3rem auto;  
+  margin:3rem auto;
   line-height:2.8em;
   font-size: 18px;
 }
@@ -222,4 +231,8 @@ article {
 /*-- responsive --*/
 @media screen and (max-width:760px) {
   body {background:#333; color:#DEDEDE;}
+  .hero { background: -webkit-linear-gradient(#366B7A, #E1E8EA);
+    background: -o-linear-gradient(#366B7A, #E1E8EA);
+    background: -moz-linear-gradient(#366B7A, #E1E8EA);
+    background: linear-gradient(#366B7A, #E1E8EA); }
 }
