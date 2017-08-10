@@ -78,11 +78,23 @@ Quanto ao lojista, o mesmo obterá o total controle do seu sistema de delivery c
         <br /><br />
         <h2>Eclética Tecnologia</h2>
           <div className="center">Com mais de 25 anos de experiência e conhecimento no setor de automação comercial, com foco em Food Service, a Eclética visa a otimização de processos operacionais oferecendo soluções especificas para gestão de negócios, tornando as atividades de um ponto de venda muita mais práticas.
-          Com sede em São Paulo e parceria com revendas por todo território nacional, a Eclética atende mais de 5000 pontos, atuando desde pequenos quiosques de alimentação até grandes redes e franquias. .</div>
+          Com sede em São Paulo e parceria com revendas por todo território nacional, a Eclética atende mais de 5000 pontos, atuando desde pequenos quiosques de alimentação até grandes redes e franquias.</div>
           <br />
           </div>
         <br /><br />
         </div>
+
+        );
+    }
+});
+
+var Rodape = React.createClass({
+    render:function(){
+        return (
+          <footer>
+            <span className="contacto">Entre em contato<br/> 4007-2225</span>
+            <div className="logo_emotoboy"></div>
+          </footer>
 
         );
     }

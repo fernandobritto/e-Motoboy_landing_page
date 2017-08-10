@@ -193,12 +193,31 @@ var Textos = React.createClass({
         React.createElement(
           "div",
           { className: "center" },
-          "Com mais de 25 anos de experi\xEAncia e conhecimento no setor de automa\xE7\xE3o comercial, com foco em Food Service, a Ecl\xE9tica visa a otimiza\xE7\xE3o de processos operacionais oferecendo solu\xE7\xF5es especificas para gest\xE3o de neg\xF3cios, tornando as atividades de um ponto de venda muita mais pr\xE1ticas. Com sede em S\xE3o Paulo e parceria com revendas por todo territ\xF3rio nacional, a Ecl\xE9tica atende mais de 5000 pontos, atuando desde pequenos quiosques de alimenta\xE7\xE3o at\xE9 grandes redes e franquias. ."
+          "Com mais de 25 anos de experi\xEAncia e conhecimento no setor de automa\xE7\xE3o comercial, com foco em Food Service, a Ecl\xE9tica visa a otimiza\xE7\xE3o de processos operacionais oferecendo solu\xE7\xF5es especificas para gest\xE3o de neg\xF3cios, tornando as atividades de um ponto de venda muita mais pr\xE1ticas. Com sede em S\xE3o Paulo e parceria com revendas por todo territ\xF3rio nacional, a Ecl\xE9tica atende mais de 5000 pontos, atuando desde pequenos quiosques de alimenta\xE7\xE3o at\xE9 grandes redes e franquias."
         ),
         React.createElement("br", null)
       ),
       React.createElement("br", null),
       React.createElement("br", null)
+    );
+  }
+});
+
+var Rodape = React.createClass({
+  displayName: "Rodape",
+
+  render: function () {
+    return React.createElement(
+      "footer",
+      null,
+      React.createElement(
+        "span",
+        { className: "contacto" },
+        "Entre em contato",
+        React.createElement("br", null),
+        " 4007-2225"
+      ),
+      React.createElement("div", { className: "logo_emotoboy" })
     );
   }
 });
