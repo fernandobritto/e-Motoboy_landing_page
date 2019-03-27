@@ -1,7 +1,7 @@
 {
-  "name": "starting_with_react",
+  "name": "e_motoboy_landing_page",
   "version": "1.0.0",
-  "title": "Starting With React",
+  "title": "e-Motoboy",
   "devDependencies": {
     "babel-preset-react": "^6.24.1"
   }
