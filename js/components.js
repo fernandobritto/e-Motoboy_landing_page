@@ -124,13 +124,8 @@ var Textos = React.createClass({
           { className: "center" },
           React.createElement(
             "p",
-            { className: "text_initial" },
-<<<<<<< HEAD
-            "E-Motoboy \xE9 uma ferramenta atrelada ao sistema Ecl\xE9tica Food Manager que ir\xE1 potencializar a efic\xE1cia do seu sistema de delivery. Com este aplicativo, o motoboy ir\xE1 receber as informa\xE7\xF5es de entrega direto em seu aparelho celular, melhorando assim o fluxo de entregas e os canais de comunica\xE7\xE3o entre o lojista com o motoboy. Contendo uma interface simples, intuitiva e funcional, o Motoboy ir\xE1 contar com um sistema integrado de mapas no qual ir\xE1 mostra a melhor rota para os locais de entrega. Quanto ao lojista, o mesmo obter\xE1 o total controle do seu sistema de delivery com as informa\xE7\xF5es do tempo real de entrega e muitos outros benef\xEDcios disponibilizados pelo aplicativo."
-=======
-            "E-Motoboy \xE9 uma ferramenta atrelada ao sistema Ecl\xE9tica Food Manager que ir\xE1 potencializar a efic\xE1cia do seu sistema de delivery. Com este aplicativo, o motoboy ir\xE1 receber as informa\xE7\xF5es de entrega direto em seu aparelho celular, melhorando assim o fluxo de entregas e os canais de comunica\xE7\xE3o entre o lojista com o motoboy. Contendo uma interface simples, intuitiva e funcional, o Motoboy ir\xE1 contar com um sistema integrado de mapas no qual ir\xE1 mostrar a melhor rota para os locais de entrega. Quanto ao lojista, o mesmo obter\xE1 o total controle do seu sistema de delivery com as informa\xE7\xF5es do tempo real de entrega e muitos outros benef\xEDcios disponibilizados pelo aplicativo."
->>>>>>> origin/master
-          ),
+            { className: "text_initial" }
+		  ),
           React.createElement("br", null),
           React.createElement("br", null),
           React.createElement(
